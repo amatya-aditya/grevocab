@@ -33,14 +33,23 @@ function randomSample(total, num) {
 
 function PickFive(level) {
   var part = [a, n, v][randomChoice(3)];
-  var start = level*20;
-  var sample = randomSample(60,5);
+  var start = level*0;
+  var sample = randomSample(21,5);
   var fivewords = new Array(5);
   for (var i=0; i<5; i++) {
     fivewords[i] = part[start+sample[i]];
   }
   return fivewords;
 }
+
+// function PickFive(level) {
+//   var fivewords = new Array(5);
+//   for (var i=0; i<5; i++) {
+//     fivewords[i] = [a[randomChoice(10)], n[randomChoice(10)], v[randomChoice(10)]][randomChoice(3)];
+//   }
+//   return fivewords;
+// }
+
 
 function GenerateWords() {
   let levelNum = 1 + Math.floor(score/100);
@@ -130,22 +139,6 @@ function PopulateList() {
 }
 
 
-function timer() {
-  let timeInSecond = 65;
-  timerInterval = setInterval(() => {
-
-      let minutes = Math.floor(timeInSecond / 60);
-      let seconds = Math.floor(timeInSecond % 60);
-      timeInSecond--;
-      minutes < 10 ? minutes = `0${minutes}` : minutes = minutes;
-      seconds < 10 ? seconds = `0${seconds}` : seconds = seconds;
-
-      counter.innerHTML = `${minutes} : ${seconds}`;
-      timeInSecond < 0 ? submitBtn.click() : "";
-  }, 1000);
-
-}
-
 var correctIndex;
 var upgradeAlert = false;
 
@@ -153,6 +146,36 @@ var a = [];
 var n = [];
 var v = [];
 
-if (game == "gre") {
-	greWords();
-} 
+if (game == "group1") {
+	group1();
+} else if (game == "group2") {
+	group2();
+} else if (game == "group3") {
+	group3();
+} else if (game == "group4") {
+	group4();
+} else if (game == "group5") {
+	group5();
+} else if (game == "group6") {
+	group6();
+} else if (game == "group7") {
+	group7();
+} else if (game == "group8") {
+	group8();
+} else if (game == "group9") {
+	group9();
+} else if (game == "group10") {
+	group10();
+} else if (game == "group11") {
+	group11();
+} else if (game == "group12") {
+	group12();
+} else if (game == "group13") {
+	group13();
+} else if (game == "group14") {
+	group14();
+} else if (game == "group15") {
+	group15();
+} else if (game == "group16") {
+	group16();
+}

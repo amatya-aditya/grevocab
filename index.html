@@ -3,121 +3,177 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="GREVOCAB is meant to boost up learning GRE vocab words." />
-    <meta name="keywords" content="sat,vocab,gre,vocabulary,practice,quiz,questions,game,prep" />
+    <meta name="keywords" content="magoosh,vocab,gre,vocabulary,practice,quiz,questions,gregmat,prep" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/main.css" />
-    <link type="text/css" rel="stylesheet" href="css/mainbuttons.css" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" />
     <link rel="icon" href="images/favicon.ico" />
     <title>GREVOCAB</title>
-
+	
 
   </head>
   <body>
-
+  
   	<script>
-	const game = "gre";
-
-	$("body").addClass(game);
-
-	var score = localStorage.getItem(game + "-score");
+	const game = "home";
 	</script>
 
-	<script>
-	const bannercloser = document.getElementById('bannercloser');
-	const banner = document.getElementById('mainbanner');
-
-	let bannerclosed = localStorage.getItem("bannerclosed");
-	if(bannerclosed) {
-		if (Date.now() - parseInt(bannerclosed) < 10 * 24 * 60 * 60 * 1000) {// ten days
-			banner.classList.add('disabled');
-		}
-	}
-	bannercloser.addEventListener('click', () => {
-		banner.classList.add('disabled');
-		localStorage.setItem("bannerclosed", Date.now())
-	})
-
-
-	</script>
-
-    <div id="header">
-	<table style="margin: auto;"><tr><td>
-	<div class="title" > GRE Vocabulary </div> 
-	</td>
-	<td style="width: 10%;"></td>
-	<td style="vertical-align: bottom;">
-  <div id="side" class="outlined">
-      
-	<table><tr><td>
-  <div id="progressbg">
-    <div id="progressmid">
-      <div id="progressbar" style="width: 0%;"></div>
-	  <span id="progresstext">Level <span id="levelNum">1</span></span>
-    </div>
-  </div></td>
-  <td><span class="buttons"><button id="reset" onClick="ResetConfirm();"><img src="images/reset.png" style="height: 15px; width: auto;" /></button></span>
-  </td></tr></table>
-
-	</div>
-  </td>
-  </tr></table>
-
-
-
-	</div>
-
-
-
-<div id="content" class="outlined">
-  <div class="question">
-    <div class="counter"></div>
-    <h3 class="questionarea">This game requires javascript turned on.</h3>
-    <table id="choicestable">
-      <tr class="0">
-        <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
-        <td><span class="hide"></span></td></tr>
-      <tr class="1">
-        <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
-        <td><span class="hide"></span></td></tr>
-      <tr class="2">
-        <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
-        <td><span class="hide"></span></td></tr>
-      <tr class="3">
-        <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
-        <td><span class="hide"></span></td></tr>
-      <tr class="4">
-        <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
-        <td><span class="hide"></span></td></tr>
-    </table>
-    <table id="report">
+  <div id="header">
+    <table style="margin: auto;">
       <tr>
-        <td id="filler">.</td>
-        <td id="grade" class="hide"></td>
-        <td id="nextCell" class="hide"></td>
+        <td>
+          <div class="title">  GRE Vocabulary </div>
+        </td>
+        <td style="width: 10%;"></td>
+        <td style="vertical-align: bottom;">
+        
+        </td>
       </tr>
     </table>
   </div>
 
+  
 
-    </div>
+    <div class="card-container">
 
+      
 
-    <script src="js/words.js"></script>
-	<script>
+        <div class="card">
+          <h2>Group 1</h2>
+        
+          <div class="tags">
+            <span>Gregmat</span>
+            <span>Magoosh</span>
+            <span>60 words</span>
+          </div>
+          <a href="group1.html" class="btn" onclick="location.href='group1.html'; return false;"> Start Quiz</a>
+          
+        </div>
+      
+        <div class="card">
+          <h2>Group 2</h2>
+          <div class="tags">
+            <span>Gregmat</span>
+            <span>Magoosh</span>
+            <span>60 Words</span>
+          </div>
+          <a href="group2.html" class="btn" onclick="location.href='group2.html'; return false;"> Start Quiz</a>
+        </div>
+      
+        <div class="card">
+            <h2>Group 3</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group3.html" class="btn" onclick="location.href='group3.html'; return false;"> Start Quiz</a>
+          </div>
 
-	$(document).ready(function() {
-		if (!score) {
-			score = 0;
-		} else {
-			score = parseInt(score);
-		}
+          <div class="card">
+            <h2>Group 4</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group4.html" class="btn" onclick="location.href='group4.html'; return false;"> Start Quiz</a>
+          </div>
 
-		UpdateProgress();
-		GetNextQuestion();
-	});
-	</script>
+          <div class="card">
+            <h2>Group 5</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group5.html" class="btn" onclick="location.href='group5.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 6</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group6.html" class="btn" onclick="location.href='group6.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 7</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group7.html" class="btn" onclick="location.href='group7.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 8</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group8.html" class="btn" onclick="location.href='group8.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 9</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group9.html" class="btn" onclick="location.href='group9.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 10</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group10.html" class="btn" onclick="location.href='group10.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 11</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group11.html" class="btn" onclick="location.href='group11.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 12</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group12.html" class="btn" onclick="location.href='group12.html'; return false;"> Start Quiz</a>
+          </div>
+
+          <div class="card">
+            <h2>Group 13</h2>
+            <div class="tags">
+              <span>Gregmat</span>
+              <span>Magoosh</span>
+              <span>60 Words</span>
+            </div>
+            <a href="group13.html" class="btn" onclick="location.href='group13.html'; return false;"> Start Quiz</a>
+          </div>
+
+        <div id="upgraded"></div>
+      </div>
+	
+    	
 	<script src="js/main.js"></script>
-
-
+		
   </body>
 </html>
