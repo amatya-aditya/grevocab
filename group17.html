@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="GREVOCAB is meant to boost up learning GRE vocab words." />
+  <meta name="keywords" content="magoosh,vocab,gre,vocabulary,practice,quiz,questions,gregmat,prep" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/index.css" />
+  <link rel="icon" href="images/favicon.ico" />
+  <title>GREVOCAB</title>
+
+
+</head>
+
+<body>
+
+  <script>
+    const game = "group17";
+
+    $("body").addClass(game);
+
+    var score = localStorage.getItem(game + "-score");
+  </script>
+
+
+  <div id="header">
+    <table style="margin: auto;">
+      <tr>
+        <td>
+          <div class="title"> <a href="index.html"> GRE Vocabulary </a> </div>
+        </td>
+        <td style="width: 10%;"></td>
+        <td style="vertical-align: bottom;">
+        
+        </td>
+      </tr>
+    </table>
+
+
+
+  </div>
+
+  
+  
+
+  <div id="content" class="outlined">
+    <div class="outlined">
+      
+      <table class="progressbar">
+        <tr>
+          <td>
+            <span id="progresstext">Level <span id="levelNum">1</span></span>
+          </td>
+          
+          <td class="progress">
+           
+            <div id="progressbg">
+              <div id="progressmid">
+                <div id="progressbar"></div>
+                
+              </div>
+            </div>
+          </td>
+          
+          
+          <td id="textarea">
+            <span class="buttons"><button id="reset" onClick="ResetConfirm();">Reset<img class="reboot" src="images/reboot.png"/></button></span>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div class="question h3">
+      <div class="counter"></div>
+      <h3 class="questionarea">This game requires javascript turned on.</h3>
+      <table id="choicestable">
+        <tr class="0">
+          <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
+          <td><span class="hide"></span></td>
+        </tr>
+        <tr class="1">
+          <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
+          <td><span class="hide"></span></td>
+        </tr>
+        <tr class="2">
+          <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
+          <td><span class="hide"></span></td>
+        </tr>
+        <tr class="3">
+          <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
+          <td><span class="hide"></span></td>
+        </tr>
+        <tr class="4">
+          <td class="buttons"><button onclick="Submit(this);"><b class="black"></b></button></td>
+          <td><span class="hide"></span></td>
+        </tr>
+      </table>
+      <table id="report">
+        <tr>
+          <td id="filler">.</td>
+          <td id="grade" class="hide"></td>
+          <td id="nextCell" class="hide"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+  <script src="js/wordlist.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      if (!score) {
+        score = 0;
+      } else {
+        score = parseInt(score);
+      }
+
+      UpdateProgress();
+      GetNextQuestion();
+    });
+  </script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -34,7 +34,7 @@ function randomSample(total, num) {
 function PickFive(level) {
   var part = [a, n, v][randomChoice(3)];
   var start = level*0;
-  var sample = randomSample(21,5);
+  var sample = randomSample(20,5);
   var fivewords = new Array(5);
   for (var i=0; i<5; i++) {
     fivewords[i] = part[start+sample[i]];

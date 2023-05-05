@@ -9,16 +9,15 @@ body {
   font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
 }
 
-
-
-button#sat {
-  color: #cd3a93;
+.body-container{
+  color: #000;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: aliceblue;
+  padding: 35px 40px;
 }
-button#gre {
-  color: #8bae3e;
-}
-
-
 
 img {
   border: none;
@@ -73,7 +72,7 @@ a.buttons, a.buttons:hover, a.buttons:active {
   text-align: center;
   padding: 8px 0 0 0;
   font-size: 1.1em;
-  color: #f0f8ff !important;
+  color: #000 !important;
 }
 #buttonarea {
   text-align: center;
@@ -295,12 +294,7 @@ button#reset:hover {
   left: 8px;
 }
 
-
-
-
-
 #label {
-  
   font-size: 1.2em;
   font-weight: bold;
   margin-top: 0px;
@@ -310,9 +304,6 @@ button#reset:hover {
   position: relative;
   bottom: 3px;
 }
-
-
-
 
 #wordslist {
   text-align: left;
@@ -377,7 +368,6 @@ button:hover, .buttons a:hover{
   border:1px solid #6299c5;
   color:#fff;
 }
-
 
 
 .card-container {
