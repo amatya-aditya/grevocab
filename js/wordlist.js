@@ -2047,15 +2047,6 @@ function group27() {
     ]);
         
     v = v.concat([
-            
-            
-    ]);
-        
-}
-
-function group28() {
-
-    a = a.concat([
         [ "extremist" , "A person who holds extreme political or religious views" ],
         [ "pragmatist" , "A person who is practical and focused on achieving results rather than theories or ideals" ],
         [ "peerless" , "Unequaled or unrivaled in quality or value" ],
@@ -2075,58 +2066,67 @@ function group28() {
         [ "virtues" , "Positive qualities or characteristics" ],
         [ "explicate" , "To explain or analyze something in detail" ],
         [ "qualify" , "To limit or modify a statement or claim" ],
-        [ "conjure up" , "To bring to mind or imagine something vividly" ]    
-    ]);
-        
-    n = n.concat([
-        [ "shrug off" , "To dismiss or ignore something, to not take something seriously" ],
-        [ "commute" , "To travel regularly between one's home and place of work or study" ],
-        [ "acute diseases" , "Diseases with a rapid onset and a short course, typically severe symptoms" ],
-        [ "winnow" , "To separate or distinguish the desirable from the undesirable, to sift through" ],
-        [ "placebo" , "A substance or treatment with no therapeutic effect, used as a control in medical experiments" ],
-        [ "arriviste" , "A social climber, someone who has recently gained wealth or status" ],
-        [ "impassive" , "Showing no emotion, calm, and not easily excited" ],
-        [ "immaculate" , "Perfectly clean and tidy, without any flaws or blemishes" ],
-        [ "protract" , "To prolong, to extend in time or space" ],
-        [ "tenacious" , "Holding firmly, persistent, not giving up easily" ],
-        [ "indissoluble" , "Incapable of being dissolved, permanent, enduring" ],
-        [ "obtuse" , "Slow to understand, dull-witted, not sharp or acute" ],
-        [ "cantankerous" , "Bad-tempered, irritable, difficult to get along with" ],
-        [ "wistful" , "Full of yearning or longing, melancholy or pensive, expressing a wishful longing" ],
-        [ "succumb" , "To give in or yield to a superior force, to surrender or die" ],
-        [ "juxtaposition" , "The act of placing things side by side for comparison or contrast" ],
-        [ "susceptibility" , "The state or condition of being easily affected or influenced by something, especially something harmful" ],
-        [ "elusive" , "Difficult to find, catch, or achieve, evasive or elusive" ],
-        [ "serendipitous" , "Occurring by chance in a happy or beneficial way, fortunate or serendipitous" ],
-        [ "affliction" , "A state of pain, distress, or suffering, a condition of physical or mental illness" ]          
-            
-    ]);
-        
-    v = v.concat([
-        [ "woo" , "To try to gain someone's love or affection, to court or pursue romantically" ],
-        [ "rugged" , "Rough, uneven, or hard in surface or texture, sturdy or durable" ],
-        [ "defy" , "To resist or challenge, to openly refuse to obey or conform to something" ],
-        [ "impediments" , "Obstacles or barriers that hinder or obstruct progress, obstacles or impediments" ],
-        [ "subtle" , "Not immediately obvious, delicate or precise, hard to detect or understand" ],
-        [ "populace" , "The general public, the common people or masses" ],
-        [ "commandeer" , "To take control of something, usually by force, to seize or appropriate" ],
-        [ "court" , "To attempt to win someone's favor or approval, to seek the attention or affection of" ],
-        [ "perks" , "Benefits or advantages that come with a particular job or position" ],
-        [ "vanity" , "Excessive pride or admiration of oneself or one's appearance, conceit" ],
-        [ "forthright" , "Direct and straightforward, honest or candid" ],
-        [ "valiant" , "Brave, courageous, or heroic, showing bravery or determination" ],
-        [ "abstemious" , "Moderate in indulgence, especially in eating and drinking" ],
-        [ "feuding" , "Engaged in a prolonged and bitter conflict or hostility" ],
-        [ "beleaguered" , "Besieged or surrounded, under constant attack or pressure" ],
-        [ "distinction - cachet" , "A mark of difference or superiority, prestige or quality" ],
-        [ "given to" , "Prone to, tending to" ],
-        [ "can make out" , "To discern or distinguish, to perceive or understand" ],
-        [ "live up to" , "To fulfill or meet expectations or standards" ],
-        [ "incensed over" , "Extremely angry or furious about" ]        
+        [ "conjure up" , "To bring to mind or imagine something vividly" ]        
             
     ]);
         
 }
+
+// function group28() {
+
+//     a = a.concat([
+//         [ "shrug off" , "To dismiss or ignore something, to not take something seriously" ],
+//         [ "commute" , "To travel regularly between one's home and place of work or study" ],
+//         [ "acute diseases" , "Diseases with a rapid onset and a short course, typically severe symptoms" ],
+//         [ "winnow" , "To separate or distinguish the desirable from the undesirable, to sift through" ],
+//         [ "placebo" , "A substance or treatment with no therapeutic effect, used as a control in medical experiments" ],
+//         [ "arriviste" , "A social climber, someone who has recently gained wealth or status" ],
+//         [ "impassive" , "Showing no emotion, calm, and not easily excited" ],
+//         [ "immaculate" , "Perfectly clean and tidy, without any flaws or blemishes" ],
+//         [ "protract" , "To prolong, to extend in time or space" ],
+//         [ "tenacious" , "Holding firmly, persistent, not giving up easily" ],
+//         [ "indissoluble" , "Incapable of being dissolved, permanent, enduring" ],
+//         [ "obtuse" , "Slow to understand, dull-witted, not sharp or acute" ],
+//         [ "cantankerous" , "Bad-tempered, irritable, difficult to get along with" ],
+//         [ "wistful" , "Full of yearning or longing, melancholy or pensive, expressing a wishful longing" ],
+//         [ "succumb" , "To give in or yield to a superior force, to surrender or die" ],
+//         [ "juxtaposition" , "The act of placing things side by side for comparison or contrast" ],
+//         [ "susceptibility" , "The state or condition of being easily affected or influenced by something, especially something harmful" ],
+//         [ "elusive" , "Difficult to find, catch, or achieve, evasive or elusive" ],
+//         [ "serendipitous" , "Occurring by chance in a happy or beneficial way, fortunate or serendipitous" ],
+//         [ "affliction" , "A state of pain, distress, or suffering, a condition of physical or mental illness" ]   
+//     ]);
+        
+//     n = n.concat([
+//         [ "woo" , "To try to gain someone's love or affection, to court or pursue romantically" ],
+//         [ "rugged" , "Rough, uneven, or hard in surface or texture, sturdy or durable" ],
+//         [ "defy" , "To resist or challenge, to openly refuse to obey or conform to something" ],
+//         [ "impediments" , "Obstacles or barriers that hinder or obstruct progress, obstacles or impediments" ],
+//         [ "subtle" , "Not immediately obvious, delicate or precise, hard to detect or understand" ],
+//         [ "populace" , "The general public, the common people or masses" ],
+//         [ "commandeer" , "To take control of something, usually by force, to seize or appropriate" ],
+//         [ "court" , "To attempt to win someone's favor or approval, to seek the attention or affection of" ],
+//         [ "perks" , "Benefits or advantages that come with a particular job or position" ],
+//         [ "vanity" , "Excessive pride or admiration of oneself or one's appearance, conceit" ],
+//         [ "forthright" , "Direct and straightforward, honest or candid" ],
+//         [ "valiant" , "Brave, courageous, or heroic, showing bravery or determination" ],
+//         [ "abstemious" , "Moderate in indulgence, especially in eating and drinking" ],
+//         [ "feuding" , "Engaged in a prolonged and bitter conflict or hostility" ],
+//         [ "beleaguered" , "Besieged or surrounded, under constant attack or pressure" ],
+//         [ "distinction - cachet" , "A mark of difference or superiority, prestige or quality" ],
+//         [ "given to" , "Prone to, tending to" ],
+//         [ "can make out" , "To discern or distinguish, to perceive or understand" ],
+//         [ "live up to" , "To fulfill or meet expectations or standards" ],
+//         [ "incensed over" , "Extremely angry or furious about" ]         
+            
+//     ]);
+        
+//     v = v.concat([
+              
+            
+//     ]);
+        
+// }
 
 // function group29() {
 

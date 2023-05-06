@@ -178,4 +178,32 @@ if (game == "group1") {
 	group15();
 } else if (game == "group16") {
 	group16();
+} else if (game == "group17") {
+	group17();
+} else if (game == "group18") {
+	group18();
+} else if (game == "group19") {
+	group19();
+} else if (game == "group20") {
+	group20();
+} else if (game == "group21") {
+	group21();
+}else if (game == "group22") {
+	group22();
+} else if (game == "group23") {
+	group23();
+} else if (game == "group24") {
+	group24();
+} else if (game == "group25") {
+	group25();
+} else if (game == "group26") {
+	group26();
+} else if (game == "group27") {
+	group27();
+} else if (game == "group28") {
+	group28();
+} else if (game == "group29") {
+	group29();
+} else if (game == "group30") {
+	group30();
 }
