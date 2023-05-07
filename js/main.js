@@ -114,12 +114,12 @@ function Submit(object) {
     $('#grade').html('CORRECT').css('color', '#6c5ce7');
   }
   else {
-    $(object).parent().parent().css('background-color', '#ffe0cc');
+    $(object).parent().parent().css('background-color', '#ffcccc');
     $('#grade').html('INCORRECT').css('color', '#ff1e00 ');
   }
   $('#choicestable button').attr('disabled', true);
   $('.hide').removeClass("hidden");
-  $('.correct').addClass('correctrow').css('background-color', '#d5f3ff');
+  $('.correct').addClass('correctrow').css('background-color', '#89ddff');
   $('.black').addClass('gray').removeClass('black');
   UpdateScore(+($(object).parent().parent().hasClass(correctIndex+'')));
   return(false);

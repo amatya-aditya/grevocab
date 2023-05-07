@@ -4,6 +4,7 @@ html, body {
 
 body {
   background-color: #6c5ce7;
+  /* background: #737678; */
   margin: 0;
   text-align: center;
   font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
@@ -13,7 +14,7 @@ body {
   color: #000;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   background: aliceblue;
   padding: 35px 40px;
@@ -333,9 +334,9 @@ button#reset:hover {
   display:block;
   margin:0 7px 0 0;
   background-color:#4548481f;
-  border:1px solid #dedede;
-  border-top:1px solid #eee;
-  border-left:1px solid #eee;
+  border:1px solid #dedede00;
+  border-top:1px solid #dedede00;
+  border-left:1px solid #dedede00;
   font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
   font-size:100%;
   line-height:130%;
@@ -376,7 +377,6 @@ button:hover, .buttons a:hover{
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  background: aliceblue;
   padding: 35px 40px;
   margin-top: 8px;
 }
@@ -420,7 +420,7 @@ button:hover, .buttons a:hover{
   font-size: 12px;
   padding: 5px 10px;
   margin: 5px;
-  background-color: #6200ff30;
+  background-color: #6c5ce7a1;
   border-radius: 20px;
 }
 
@@ -429,7 +429,7 @@ button:hover, .buttons a:hover{
   width: 80%;
   margin: 20px auto;
   padding: 10px 20px;
-  background-color: #d3d3d3;
+  background-color:#6c5ce7a1;
   color: #6200ff;
   font-size: 16px;
   font-weight: 900;
