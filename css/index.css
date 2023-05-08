@@ -119,6 +119,7 @@ a.buttons, a.buttons:hover, a.buttons:active {
   background-color: #ecf0f1;
   text-align: center;
   padding: 15px 15px;
+  text-transform: lowercase;
 }
 
 
@@ -248,9 +249,11 @@ button#reset:hover {
   display: flex;
   justify-content: space-around !important;
   padding:60px 0;
+  text-transform: lowercase;
 }
 #choicestable b {
   font-size: 1.2em;
+  text-transform: lowercase;
 }
 #choicestable td {
   height: 40px;
